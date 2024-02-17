@@ -1,10 +1,9 @@
 import streamlit as st
 
-st.set_page_config(page_title="HEY", layout = "wide")
-st.subheader ("Hi, this is Fatlum")
-st.title("What would you like to do tonight?")
-st.write ("Are you down for dinner")
-st.write ("I am really pump up for it")
+st.set_page_config(page_title="Only For You", layout = "wide", page_icon=":heart:")
+st.subheader ("I am happy to see you here")
+st.title("Date Night?")
+st.write ("I have been thinking about you, would you like to go out in a date?")
 
 with st.container():
     st.write("---")
