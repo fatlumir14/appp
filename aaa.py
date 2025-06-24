@@ -23,6 +23,6 @@ with st.container():
         st.markdown(contact_form,unsafe_allow_html=True)
     with right_column:
         st.empty()
-
-
+        
+st.write("---")
 st.write ("Come again tomorrow, you might be in for a surprise!!")        
