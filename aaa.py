@@ -7,7 +7,7 @@ st.write ("Are you apple pie? Because every time I see you, I forget my diet. Ho
 
 with st.container():
     st.write("---")
-    st.header("Your response")
+    st.header("Your Response")
     st.write ("##")
     contact_form="""
     <form action= "https://formsubmit.co/ffatlumrexhepi@gmail.com" method="POST">
