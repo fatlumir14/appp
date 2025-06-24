@@ -1,9 +1,10 @@
 import streamlit as st
 
-st.set_page_config(page_title="Only For You", layout = "wide", page_icon=":heart:")
-st.subheader ("I am happy to see you here")
+st.set_page_config(page_title="Apple Pie", layout = "wide", page_icon=":heart:")
+st.subheader ("Hey, you made it!!!")
 st.title("Date Night?")
 st.write ("I have been thinking about you, would you like to go out in a date?")
+st.write ("Down below, I've added a response option where you can answer back.")
 
 with st.container():
     st.write("---")
