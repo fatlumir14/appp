@@ -3,8 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Apple Pie", layout = "wide", page_icon=":heart:")
 st.subheader ("Hey, you made it!!!")
 st.title("Date Night?")
-st.write ("I have been thinking about you, would you like to go out in a date?")
-st.write ("Down below, I've added a response option where you can answer back.")
+st.write ("Are you apple pie? Because every time I see you, I forget my diet. However, date first, regrets later?")
 
 with st.container():
     st.write("---")
@@ -24,4 +23,4 @@ with st.container():
         st.markdown(contact_form,unsafe_allow_html=True)
     with right_column:
         st.empty()
-        
+st.write ("Come again tomorrow, you might be in for a surprise!!")        
